@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 100px;
+}
+.body{
+    display: none;
+}
+body{
+    background-color: black;
+}
+/* All style section start */
+.container{
+    max-width: 1440px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+
+}
+.flex-display{
+    display: flex;
+}
+.primary-btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.All-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;    
+}
+.All-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+/* nav section start here */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.nav-left{
+    font-family: "Inter",sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    color: #E6533C;
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: white;
+}
+.paimary-btn-nav{
+        padding: 8px 20px;
+        border-radius: 42px;
+        background-color: #E6533C;
+        color: white;
+        
+    }
+.harn-icon{
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+.nav-items{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 39px; 
+    padding: 12px 5px;   
+}
+/* hero section start here */
+.hero-section{
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title-style{
+    font-family: 'Miama', sans-serif;                                         
+    font-weight: 400;
+}
+.hero-left-2{
+    width: 520px;
+}
+.hero-title{
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.hero-btn{
+    padding: 16px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.hero-section button{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.hero-right{
+    position: relative;
+    margin-right: 2rem;
+}
+.right-top{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 206px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 23px;
+}
+.video{
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: white;
+    
+}
+.right-btn{
+    position: absolute;
+    top: 75%;
+    right: 80%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    width: 206px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 23px;
+    align-items: center;
+    gap: 10px;
+}
+.red-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.video-num{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    
+}
+.tutorial{
+    margin-top: 5px;
+}
+
+/* habite style here */
+.habite-top{
+    text-align: center;
+}
+.habite-btn{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.habite-img{
+    text-align: center;
+    width: 231px;
+    padding: 0px 10px;
+}
+.habite-img > img{
+    border-radius: 50%;
+}
+.img-name{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    
+}
+
+/* extra mile sectin start  */
+.extra-mile{
+    background: #222222;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 10px;
+}
+.extra-left{
+    width: 443px;
+}
+.extra-right img{
+    width: 366px;
+     border-radius: 10px;
+}
+/* calculatoe section style */
+.bmi-bg{
+    background: rgb(34, 34, 34);
+}
+.bmi-title-section{
+    align-items: center;
+    width: 671px;
+    margin: 0 auto;
+}
+.bmi-section{
+    justify-content: space-between;
+    margin-top: 50px;
+    background: rgb(34, 34, 34);
+    padding: 52px;
+}
+.bmi-calculator-chart{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.chart-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+table, td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: left;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 18px;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 18px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+.form{
+    margin-top: 25px;
+}
+.claculator-bmi{
+    max-width: 720px;
+}
+.input-fild,
+.factor{
+    width: calc(50% - 40px);
+    padding: 25px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+   
+
+}
+.factor{
+    width: 93%;
+}
+option{
+    background-color: black;
+}
+
+.exer-1{
+    background: rgba(255, 0, 0, 0.3),url(images/exercise1.jpg);
+}
+
+/* our team style */
+.team{
+    text-align: center;
+    margin: 50px 0px;
+}
+.our-team{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 20px;
+  background-color: #222222; 
+  width: 1440px; 
+  margin: 0 auto;
+  border-radius: 16px;
+  gap: 20px;
+}
+.team-memberr{
+    width: 450px;
+    height: 300px;
+    border-radius: 16px;
+    opacity: 0.7;
+}
+.trainer-details{
+    position: relative;
+}
+.trainer-name{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    left: 10%;
+    top: 70%;
+}
+.trainer{
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 80%;
+}
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.contact form {
+    max-width: 70rm;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact form .input-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.contact form .input-box .input-field {
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+}
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: white;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+    color: white;
+}
+
+.contact form .focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(94, 90, 90);
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+    z-index: -1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.contact  form .input-box .input-field input:focus~.focus,
+.contact  form .input-box .input-field input:valid~.focus {
+    width: 100%;
+
+}
+.contact form .textarea-field {
+    position: relative;
+    margin: .8rem 0 2.7rem;
+    display: flex;
+}
+.contact form .textarea-field textarea {
+    resize: none;
+}
+.contact form .brn-box.btns .btn {
+    cursor: pointer;
+}
+
+/* footer section start here */
+footer > .container{
+    background-color: #222222;
+}
+footer{
+    background-color: #222222;
+}
+.footer{
+    background-color: #222222;
+    gap: 100px;
+    padding: 65px 0px;
+}
+.footer-left{
+    width: 720px;
+}
+.footer-left > div{
+    width: 443px;
+}
+.Footer-title{
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+.footer-btn{
+    gap: 152px;
+    
+}
+.hr-style{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy-right{
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Exercises section style */
+.trainigs-section{
+    margin: 50px 0px;
+}
+.training-btn{
+    
+    
+    margin-top: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding-left: 399px;
+    padding-right: 300px;
+
+}
+
+
+.img1{
+    max-width: 40%;
+}
+.first-row{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+} 
+/* Media section start here  */
+
+@media screen and (max-width:576px){
+    .primary-btn, .hero-btn{
+        padding: 10px;
+        margin: 0px;
+        height: auto;
+        font-size: 0.7rem;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-items{
+        border: none;
+          
+    }
+    .harn-icon{
+        display: block;
+    }
+    .hero-section,
+    .habite-btn,
+    .extra-mile,
+    .bmi-section,
+    .footer,
+    .footer-btn{
+        flex-direction: column;
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+    .hero-left-2{
+        width: 100%;
+    }
+
+    .hero-right > img {
+        height: 450px;
+        margin-left: 20px;
+    }
+    .hero-section button{
+      width: auto;
+      margin-left: 0px;
+    }
+    .hero-button{
+        margin-left: 50px;
+    }
+    .right-top,
+    .right-btn{
+        width: 150px;
+        left: 55%;
+        padding: 8px;
+    }
+    .right-btn{
+        top: 60%;
+        left: 10%;
+    }
+    .video{
+        font-size: 1.5rem;
+    }
+    .video-num{
+        font-size: 1rem;
+    }
+    .tutorial{
+        font-size: 0.8rem;
+    }
+    .red-circle{
+        width: 20px;
+        height: 20px;
+    }
+    .All-title{
+        font-size: 1.5rem;
+    }
+    .All-des{
+        font-size: 0.8rem;
+    }
+    .extra-mile{
+        text-align: center;
+    }
+    .extra-left{
+        width: auto;
+    }
+    .extra-right img{
+        max-width: 100%;
+        
+    }
+    .extra-right{
+        margin-top: 20px;
+    }
+    .bmi-section{
+        padding: 20px 10px;
+    }
+    .bmi-calculator-chart{
+        margin: 0;
+    }
+    .chart-title{
+        font-size: 1rem;
+    }
+    table{
+        margin-top: 10px;
+    }
+    .bmi-title-section{
+        align-items: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .claculator-bmi{
+       margin-top: 30px;
+    }
+    .input-fild,
+   .factor{
+    width: calc(55% - 40px);
+    padding: 10px;
+    margin: 5px;
+    font-size: 0.8rem;
+  
+    }
+    
+    .factor{
+        width: calc(100% - 40px);
+    }
+    th, td{
+        font-size: 0.8rem;
+        padding: 5px;
+        font-weight: 400;
+    }
+    .our-team{
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+        padding: 10px;
+        width:auto;
+      }
+      .team-memberr{
+        max-width: 100%;
+    }
+    .footer{
+        text-align: left;
+    }
+    .footer-left{
+        width: auto;
+    }
+    .footer-left > div{
+        width: auto;
+    }
+    .footer-btn{
+        text-align: left;
+        gap: 40px;
+        
+    }
+    .training-btn{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+    
+    }
+    
+
+}
